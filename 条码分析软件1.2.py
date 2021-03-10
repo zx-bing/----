@@ -1,4 +1,4 @@
-f = open('请英文格式下导入条码1.1.txt')
+f = open('请英文格式下导入条码.txt')
 lines = len(f.readlines())
 f.seek(0)
 
@@ -10,6 +10,7 @@ CS = []
 TM = []
 
 l1 = f.readlines()
+
 a = 0
 b = len(l1)
 while a < b:
